@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesome cdn link -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vazir-font/30.1.0/font-face.css"> -->
+    <!-- css link -->
+    <link rel="stylesheet" href="css/mpstyle.css">
+    <!-- icon cnd link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <!-- swiper cdn link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <title>vegetables</title>
+</head>
+<body>
+    <!-- header section starts-->
+    <header class="header">
+        <a href="#"class="Logo" ><i class="fas fa-shopping-basket"></i> AMTK </a>
+
+        <nav class="navbar">
+            <a href="#home">خانه</a>
+            <a href="#features">خدمات</a>
+            <a href="#products">محصولات</a>
+            <a href="#categorias">دسته بندی ها</a>
+            <a href="#blog">مقالات</a>
+            <a href="about">درباره ما</a>
+        </nav>
+        <div class="icon">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        </div>
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="جستجو..">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <div class="shopping-cart" id="shopping-cart">
+            <h2 class="cart-title">سبدخرید شما</h2>
+            <div class="cart-content"> 
+            </div>
+            <div class="total">
+                <div class="total-title">
+                    مجموع
+                </div>
+                <div class="total-price">
+                0
+                </div>
+                <button type="button" class="btn btn-buy">خرید</button>
+                <i class="fas fa-close" id="cart-close"></i>
+            </div>
+        </div>
+        <form action="" class="login-form">
+            <h3>Login Now</h3>
+            <input type="email" placeholder="ایمیل خود را وارد کنید." class="box">
+            <input type="password" placeholder="رمز خود را وارد کنید" class="box">
+            <p>رمز خود را فراموش کرده اید؟<a href="#">اینجا کلیک کنید</a></p>
+            <p>حساب کاربری ندارید؟<a href="#">اینجا کلیک کنید</a></p>
+            <input type="submit" value="Login now" class="btn">
+        </form>
+    </header>
+    <!-- header section ends-->
+        <!-- home section starts-->
+        <section class="home" id="home">
+            <div class="content">
+                <h3>محصولاتی تازه و <span>ارگانیک</span> برای شما</h3>
+                <p> سفری واقعی به دنیای محصولات تازه و ارگانیک برای حفظ سلامتی و تندرستی  </p>
+                <a href="" class="btn">همین الان خرید کنید</a>
+            </div>
+        </section>
+        <!-- home section ends-->
+        <!-- products section starts-->
+    <section class="products" id="products">
+        <h1 class="heading"><span>سبزیجات</span></h1>
+        <div class="swiper product-slider">
+            <ul class="swiper-wrapper" id="myUL">
+                <li class=" swiper-slide box" >
+                    <img src="img/هویج.jpg" alt="">
+                    <h3>هویج </h3>
+                        <p class="price">150000 <span></span> </p>
+                        <button class="add-to-cart btn" data-name="هویج" data-price="150000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                    <img src="img/ذرت.jpg" alt="">
+                    <h3>ذرت</h3>
+                        <p class="price">250000 <span></span> </p>
+                        <button class="add-to-cart btn"data-name="ذرت" data-price="250000" >افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/سیب زمینی.jpg" alt="">
+                        <h3>سیب زمینی</h3>
+                        <p class="price">100000 <span></span> </p>
+                        <button class="add-to-cart btn" data-name="سیب زمینی" data-price="100000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/فلفل دلمه.jpg" alt="">
+                        <h3>فلفل دلمه </h3>
+                        <p class="price">150000 <span></span> </p>
+                        <button class="add-to-cart btn" data-name="فلفل دلمه" data-price="150000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/پیاز.jpg" alt="">
+                        <h3>پیاز </h3>
+                        <p class="price">100000 <span>&#65020</span> </p>
+                        <button class="add-to-cart btn" data-name="پیاز" data-price="100000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/کرفس.jpg" alt="">
+                        <h3>کرفس </h3>
+                        <p class="price">150000 <span>&#65020</span> </p>
+                        <button class="add-to-cart btn" data-name="کرفس" data-price="150000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/کلم.jpg" alt="">
+                        <h3>کلم </h3>
+                        <p class="price">180000 <span>&#65020</span> </p>
+                        <button class="add-to-cart btn" data-name="کلم" data-price="180000">افزودن</button>
+                    </li>
+                    <li class="swiper-slide box">
+                        <img src="img/گوجه.jpg" alt="">
+                        <h3>گوجه </h3>
+                        <p class="price">150000 <span>&#65020</span> </p>
+                        <button class="add-to-cart btn" data-name="گوجه" data-price="150000">افزودن</button>
+                    </li>
+            </ul>
+        </div>
+    </section>
+    <!--productes section ends-->
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="Java script/mainp.js"></script>
+</html>
